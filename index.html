@@ -1,1 +1,145 @@
-Hello World
+<html lang="en">
+    <head> 
+        <title>Marko Štimac portfolio</title>
+        <meta charset="utf-8"> 
+        <meta name="description" content="Marko Štimac personal portfolio - web design"> 
+        <meta name="author" content="Marko Štimac"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600&amp;subset=latin-ext" rel="stylesheet"> 
+        <meta name="google-site-verification" content="04Ar611zBXhX0SlJxH9WfxBK3ZBpsIOoq_2iZmBL9-Y">
+        <style>
+            html, body, div, span, h1, h2, h3, p, a, ul, li {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                font-display: swap;
+                vertical-align: baseline;
+                font-family: "Montserrat";
+            }
+            html {
+                font-size: 14px;
+            }
+            body {
+                line-height: 1;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding: 15px;
+            }
+            h1 {
+                margin-top: 3rem;
+                font-weight: 200;
+                font-size: 2.5rem;
+                text-align: center;
+            }
+            h2 {
+                margin-top: .5rem;
+                margin-bottom: 1rem;
+                font-size: .9rem;
+                letter-spacing: 0.2rem;
+                text-transform: uppercase;
+                text-align: center;
+            }
+            h3 {
+                margin-top: 2rem;
+                margin-bottom: .5rem;
+                font-size: .75rem;
+                font-weight: 600;
+                letter-spacing: 0.05rem;
+                text-transform: uppercase;
+            }
+            ol, ul {
+                list-style: none;
+            }
+            li {
+                line-height: 1.8;
+            }
+            a {
+                color: #222;
+            }
+            .content {
+                width: 100%;
+            }
+            .social {
+                margin-top: 1rem;
+            }
+            .social li {
+                display: inline-block;
+                margin: 0 .5rem;
+            }
+            .social svg {
+                fill: #eee;
+                stroke: #444;
+            }
+            @media screen and (min-width: 450px) {
+                html {
+                    font-size: 16px;
+                }
+                body {
+                    align-items: center;
+                }
+                h1 {
+                    font-size: 4rem;
+                }
+                h2 {
+                    margin-bottom: 2rem;
+                }
+                h3 {
+                    margin-bottom: 1rem;
+                    font-size: .8rem;
+                }
+                .content {
+                    max-width: 500px;
+                }
+                .col {
+                    float: left;
+                    width: 50%;
+                }
+            }
+            @media screen and (min-width: 768px) and (max-width: 2000px) {
+                .content {
+                    max-width: 500px;
+                    padding-left: 8%;
+                }
+            }
+            @media screen and (min-width: 2000px) {
+                .content {
+                    padding-left: 4%;
+                }
+            }
+        </style>
+    </head> 
+    <body> 
+        <h1>Marko Štimac</h1>
+        <h2>Web design</h2>
+        <div class="content">
+            <div class="col">
+                <h3>Projects</h3>
+                <ul>
+                    <li><a href="https://www.aquakori.hr/">Aquakori</a></li>
+                    <li><a href="https://www.njegus.com/">Njeguš</a></li>
+                    <li><a href="https://www.plantea.com.hr/">Plantea</a></li>
+                    <li><a href="https://marko-stimac.github.io/Fontfest/">FontFest</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Marko Štimac</li> 
+                    <li>Varaždin, Croatia</li> 
+                    <li><a href="mailto:&#109;&#097;&#114;&#107;&#111;&#046;&#115;&#116;&#105;&#109;&#097;&#099;&#064;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#109;&#097;&#114;&#107;&#111;&#046;&#115;&#116;&#105;&#109;&#097;&#099;&#064;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li> 
+                </ul> 
+                <ul class="social"> 
+                        <li>
+                            <a href="https://github.com/marko-stimac" rel="me"> 
+                                <svg width="42" height="42" viewBox="0 0 24 24" aria-hidden="true"> <path d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"></path> </svg> 
+                            </a> 
+                        </li> 
+                </ul> 
+            </div>
+        </div>
+    <script type="application/ld+json"> { "@context": "http://www.schema.org", "@type": "person", "name": "Marko Štimac", "jobTitle": "Web developer", "url": "https://marko-stimac.github.io/", "address": { "@type": "PostalAddress", "streetAddress": "J. Kozarca 2", "addressLocality": "Varaždin", "postalCode": "42000", "addressCountry": "Croatia" }, "gender": "male", "email": "marko.stimac@mail" } } </script>  
+    </body>
+</html>
